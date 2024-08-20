@@ -22,6 +22,29 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 <Layout>
   <Header />
   <main id="main-content">
+    <section id="hero">
+      <p>
+      Hi, I am Prathamesh Nevagi, know more 
+
+        <LinkButton
+          className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
+          href="https://pr4th4m.github.io/about/"
+        >
+          about me here
+        </LinkButton>
+      </p>
+      {
+        // only display if at least one social link is enabled
+        socialCount > 0 && (
+          <div class="social-wrapper">
+            <div class="social-links">Social Links:</div>
+            <Socials />
+          </div>
+        )
+      }
+    </section>
+    <Hr />
+
     {
       featuredPosts.length > 0 && (
         <>
