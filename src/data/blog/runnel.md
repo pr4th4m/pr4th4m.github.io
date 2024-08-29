@@ -1,6 +1,6 @@
 ---
 author: Prathamesh Nevagi
-pubDatetime: 2024-03-06T15:22:00Z
+pubDatetime: 2024-02-07T15:22:00Z
 title: Stream cli output over http
 slug: stream-cli-output
 featured: true
