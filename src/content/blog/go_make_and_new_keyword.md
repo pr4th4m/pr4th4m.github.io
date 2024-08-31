@@ -10,7 +10,7 @@ tags:
 description: Golang `new` and `make` keyword
 ---
 
-# new and make keyword
+# new and make keyword in go
 How does `new` and `make` keywords allocate memory in golang
 
 
