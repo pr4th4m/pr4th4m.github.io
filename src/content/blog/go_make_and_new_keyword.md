@@ -1,7 +1,7 @@
 ---
 author: Prathamesh Nevagi
 pubDatetime: 2024-02-16T15:22:00Z
-title: Golang new and make keyword
+title: new and make keyword in go
 slug: golang-new-and-make-keyword
 featured: true
 draft: false

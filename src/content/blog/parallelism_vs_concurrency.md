@@ -1,6 +1,6 @@
 ---
 author: Prathamesh Nevagi
-pubDatetime: 2024-03-06T15:22:00Z
+pubDatetime: 2024-02-29T15:22:00Z
 title: Parallelism vs Concurrency
 slug: parallelism-vs-concurrency
 featured: true

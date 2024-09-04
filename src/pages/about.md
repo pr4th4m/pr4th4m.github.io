@@ -32,6 +32,7 @@ Hi, I am Prathamesh Nevagi
 - [Stream output of command line interface over http](https://github.com/VeritasOS/runnel)
 - [Version reader/writer for popular package managers as per SemVer](https://github.com/VeritasOS/versioner)
 - [Artifactory python client](https://github.com/VeritasOS/py-artifactory)
+- [Useful coding patterns](https://github.com/pr4th4m/gist)
 
 
 ## 🖋️ Get in touch 
