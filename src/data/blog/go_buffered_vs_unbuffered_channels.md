@@ -1,7 +1,7 @@
 ---
 author: Prathamesh Nevagi
 pubDatetime: 2024-04-19T15:22:00Z
-title: Golang unbuffered vs buffered channels
+title: Unbuffered vs buffered channels in go
 slug: golang-unbuffered-vs-buffered-channels
 featured: true
 draft: false
