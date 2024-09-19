@@ -37,5 +37,5 @@ Hi, I am Prathamesh Nevagi
 
 ## 🖋️ Get in touch 
 
-- LinkedIn: https://www.linkedin.com/in/pr4th4m
+- LinkedIn: https://www.linkedin.com/in/prathamesh0985
 - Github: https://github.com/pr4th4m
