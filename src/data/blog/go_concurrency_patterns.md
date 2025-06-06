@@ -25,7 +25,7 @@ description: Concurrency patterns in go
 
 ## Pipeline
 Output of one channel is input to other channel
-![pipeline](@assets/images/pipeline_concurrency_pattern.png)
+![pipeline](@/assets/images/pipeline_concurrency_pattern.png)
 <details>
   <summary>Code snippet</summary>
 
@@ -119,7 +119,7 @@ Output of one channel is input to other channel
 
 ## Worker pool
 Worker pool is a load balancing mechanism
-![pipeline](@assets/images/worker_pool_concurrency_pattern.png)
+![pipeline](@/assets/images/worker_pool_concurrency_pattern.png)
 <details>
   <summary>Code snippet</summary>
 
@@ -192,7 +192,7 @@ Worker pool is a load balancing mechanism
 
 ## Fan out Fan in 
 Fan out and fan in are used to distribute work across multiple goroutines
-![pipeline](@assets/images/fan_out_fan_in_concurrency_pattern.png)
+![pipeline](@/assets/images/fan_out_fan_in_concurrency_pattern.png)
 <details>
   <summary>Code snippet</summary>
 
@@ -289,7 +289,7 @@ Fan out and fan in are used to distribute work across multiple goroutines
 
 ## Rate limiter
 Rate limiter is a throttling mechanism
-![pipeline](@assets/images/rate_limiter_concurrency_pattern.png)
+![pipeline](@/assets/images/rate_limiter_concurrency_pattern.png)
 <details>
   <summary>Code snippet</summary>
 
@@ -364,4 +364,4 @@ Rate limiter is a throttling mechanism
 </details>
 
 ## All patterns
-![pipeline](@assets/images/concurrency_patterns.avif)
+![pipeline](@/assets/images/concurrency_patterns.avif)

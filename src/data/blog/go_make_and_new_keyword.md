@@ -20,7 +20,7 @@ How does `new` and `make` keywords allocate memory in golang
 - Use `new` when you need a pointer to a newly allocated zero value of a type
 - `p := new(int)` allocates memory on the heap and returns a pointer to it, whereas `p := 0` simply declares a variable on the stack with an initial value of 0
 
-![new](@assets/images/new_keyword.avif)
+![new](@/assets/images/new_keyword.avif)
 
 
 ## `make` keyword:
@@ -31,4 +31,4 @@ How does `new` and `make` keywords allocate memory in golang
 - Memory for the underlying array is immediately allocated based on the specified length and capacity.
 - `s := make([]int, 2, 4)` allocates memory on the heap, whereas `s := []int{}` will only allocate memory after appending items to it
 
-![new](@assets/images/make_keyword.avif)
+![new](@/assets/images/make_keyword.avif)

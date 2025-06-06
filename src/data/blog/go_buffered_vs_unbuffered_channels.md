@@ -12,7 +12,7 @@ description: Golang unbuffered vs buffered channels
 
 # Unbuffered vs Buffered channels
 
-![new](@assets/images/buffered_vs_unbuffered_channels.avif)
+![new](@/assets/images/buffered_vs_unbuffered_channels.avif)
 
 ## Unbuffered channels
 - By default channels are unbuffered, for a sender there should be a corresponding receiver

@@ -21,4 +21,4 @@ description: Parallelism vs Concurrency
 - IO bound are network connections, disk operations, api calls etc
 - CPU bound are image processing, machine learning etc
 
-![concurrency_vs_parallelism](@assets/images/concurrency_vs_parallelism.avif)
+![concurrency_vs_parallelism](@/assets/images/concurrency_vs_parallelism.avif)
