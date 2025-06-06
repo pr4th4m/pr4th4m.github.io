@@ -17,8 +17,6 @@ const posts = await getCollection("blog");
 const sortedPosts = getSortedPosts(posts);
 const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
 const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
-
-const socialCount = SOCIALS.filter(social => social.active).length;
 ---
 
 <Layout>
@@ -39,15 +37,6 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       {
         // only display if at least one social link is enabled
         SOCIALS.length > 0 && (
-          <div class="mt-4 flex flex-col sm:flex-row sm:items-center">
-            <div class="mr-2 mb-1 whitespace-nowrap sm:mb-0">Social Links:</div>
-            <Socials />
-          </div>
-        )
-      }
-      {
-        // only display if at least one social link is enabled
-        socialCount > 0 && (
           <div class="mt-4 flex flex-col sm:flex-row sm:items-center">
             <div class="mr-2 mb-1 whitespace-nowrap sm:mb-0">Social Links:</div>
             <Socials />

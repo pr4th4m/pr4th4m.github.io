@@ -1,6 +1,4 @@
-import type { Site } from "./types";
-
-export const SITE: Site = {
+export const SITE = {
   website: "https://pr4th4m.github.io/",
   author: "Prathamesh Nevagi",
   profile: "https://github.com/pr4th4m",
