@@ -12,6 +12,7 @@ description: Artifactory python client
 ---
 
 <!--toc:start-->
+
 - [Py-Artifactory](#py-artifactory)
 - [Pre-requisites](#pre-requisites)
 - [Installation](#installation)
@@ -20,11 +21,13 @@ description: Artifactory python client
 <!--toc:end-->
 
 ### Py-Artifactory
+
 [**Artifactory**](https://www.jfrog.com/artifactory) is a artifact repository manager which supports software packages created by different technologies.
 It can also be integrated with major CI/CD and DevOps tools.
 This article shows how we can communicate with artifactory using a python api client.
 
 ### Pre-requisites
+
 - Python 2.7 or higher
 - libxml2/libxslt (will be deprecated in future releases)
 
@@ -37,6 +40,7 @@ This article shows how we can communicate with artifactory using a python api cl
   ```
 
 ### Installation
+
 - Fire-up below command in terminal, `tag` specifies a version number.
 
   ```bash
@@ -44,6 +48,7 @@ This article shows how we can communicate with artifactory using a python api cl
   ```
 
 ### Usage
+
 - Create client instance
 
   ```python
@@ -91,5 +96,6 @@ This article shows how we can communicate with artifactory using a python api cl
   ```
 
 ### Detailed documentation
+
 - A much more detailed documentation is provided here [**py-artifactory**](https://github.com/VeritasOS/py-artifactory)
 - [**Feel free to Contribute back**](https://github.com/pr4th4m/py-openemm)

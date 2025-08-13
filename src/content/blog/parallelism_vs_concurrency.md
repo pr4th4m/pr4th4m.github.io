@@ -12,6 +12,7 @@ description: Parallelism vs Concurrency
 ---
 
 # Parallelism Vs Concurrency
+
 - Concurrency is dealing with multiple things at once (does not need to be done at the same time) with some time schedule while parallelism is doing the things at once at same time
 - Different parts of the program are executed independently in concurrency
 - Different parts of the program are executed at the same time in parallelism

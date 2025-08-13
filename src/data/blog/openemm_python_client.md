@@ -12,22 +12,25 @@ description: OpenEMM python client
 ---
 
 <!--toc:start-->
+
 - [Py-OpenEMM](#py-openemm)
   - [Pre-requisites](#pre-requisites)
   - [Installation](#installation)
   - [Configuration](#configuration)
   - [Usage](#usage)
-<!--toc:end-->
+  <!--toc:end-->
 
 ## Py-OpenEMM
+
 [**OpenEMM**](http://www.openemm.org) is a feature-rich web-based enterprise application for email marketing, newsletters and service mails.
 
 ### Pre-requisites
+
 - Python 2.7 or higher
 - Python Suds 0.4 or higher
 
-
 ### Installation
+
 - Clone repo
 
   ```bash
@@ -35,6 +38,7 @@ description: OpenEMM python client
   ```
 
 ### Configuration
+
 - Move to directory where you have cloned the repo
 
   ```bash
@@ -51,6 +55,7 @@ description: OpenEMM python client
   ```
 
 ### Usage
+
 - Create client connection
 
   ```python

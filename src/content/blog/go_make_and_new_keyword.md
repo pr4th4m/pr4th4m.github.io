@@ -11,10 +11,11 @@ description: Golang `new` and `make` keyword
 ---
 
 # new and make keyword in go
+
 How does `new` and `make` keywords allocate memory in golang
 
-
 ## `new` keyword:
+
 - `new` is used to allocate memory for a variable of a specific type, including basic types (like int, float64, etc.) and composite types (like structs)
 - It returns a pointer to the zero-initialized memory of the specified type
 - Use `new` when you need a pointer to a newly allocated zero value of a type
@@ -22,8 +23,8 @@ How does `new` and `make` keywords allocate memory in golang
 
 ![new](@assets/images/new_keyword.avif)
 
-
 ## `make` keyword:
+
 - The `make` function is used to create a slice with a specific length and capacity. It gives you more control over the initial size and memory allocation of the slice
 - `make` is used to create and initialize slices, maps, and channels, which are types that have underlying data structures
 - `make` returns the type itself, not a pointer

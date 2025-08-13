@@ -12,11 +12,13 @@ description: Steps to install NFS and SMB server on Raspberry Pi
 ---
 
 <!--toc:start-->
+
 - [NFS server](#nfs-server)
 - [Samba server](#samba-server)
 <!--toc:end-->
 
 ## NFS server
+
 - Install server
 
   ```bash
@@ -50,8 +52,8 @@ description: Steps to install NFS and SMB server on Raspberry Pi
   sudo mount -v -o "resvport" 192.168.1.9:/media/storage /Users/username/nfs_shared
   ```
 
-
 ## Samba server
+
 - Install server
 
   ```bash

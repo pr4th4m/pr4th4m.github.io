@@ -15,6 +15,7 @@ description: Golang unbuffered vs buffered channels
 ![new](@/assets/images/buffered_vs_unbuffered_channels.avif)
 
 ## Unbuffered channels
+
 - By default channels are unbuffered, for a sender there should be a corresponding receiver
 - There's no need for any other synchronization mechanism like mutexes as for each sender there's only one receiver
 - By default unbuffered channels are blocking
@@ -50,8 +51,8 @@ func main() {
 }
 ```
 
-
 ## Buffered channels
+
 - Buffered channels accept a limited number of values without a corresponding receiver for those values
 - Buffered channels allow a specified number of values to be sent without blocking until the buffer is full
 - Its like creating a buffer inside channel where all data will be kept temporarily until its received by receiver

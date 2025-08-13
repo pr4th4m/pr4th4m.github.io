@@ -12,6 +12,7 @@ description: How to write your own custom git credential helper
 ---
 
 <!--toc:start-->
+
 - [Git credential helper:](#git-credential-helper)
   - [Simple python cli](#simple-python-cli)
 - [Git credentials store](#git-credentials-store)
@@ -19,12 +20,13 @@ description: How to write your own custom git credential helper
 <!--toc:end-->
 
 ## Git credential helper:
+
 Git credential helper is used to save user credentials, so that user does not require to enter credentials on each git operation.
 Git provides few default git credential helpers, [see how to use them](https://git-scm.com/docs/gitcredentials).
 This blog will demonstrate on how to build custom git credential helper.
 
-
 ### Simple python cli
+
 - Let's write a python cli called `auth_helper.py`
 
   ```python
@@ -71,15 +73,15 @@ This blog will demonstrate on how to build custom git credential helper.
 - This cli takes three git operations as cli arguments `get`, `store` and `erase`.
 - These arguments are not coincident, they are used by git. Let's know more about them.
 
-
 ## Git credentials store
-- Git credentials store looks for three arguments
-    - `get`: called when triggered git pull, git fetch, git push etc.
-    - `store`: called when triggered git pull, git fetch, git push etc.
-    - `erase`: if our provided credentials fail, git will fallback to its own credentials prompt, if this fails as well `erase` is called.
 
+- Git credentials store looks for three arguments
+  - `get`: called when triggered git pull, git fetch, git push etc.
+  - `store`: called when triggered git pull, git fetch, git push etc.
+  - `erase`: if our provided credentials fail, git will fallback to its own credentials prompt, if this fails as well `erase` is called.
 
 ## Git helper configuration
+
 - To configure our cli as git helper, trigger the below command
 
   ```bash
@@ -88,6 +90,5 @@ This blog will demonstrate on how to build custom git credential helper.
 
 - This will define `auth_helper.py` under `credential` section of `.gitconfig` file (user's home directory).
 - `https://git.company.com` is the domain where git is hosted.
-
 
 **Done!!** Next time we use git, our `auth_helper.py` should provide credentials for git authorization.

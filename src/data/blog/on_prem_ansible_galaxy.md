@@ -11,6 +11,7 @@ description: How to install on-prem ansible galaxy
 ---
 
 <!--toc:start-->
+
 - [On-prem galaxy repository](#on-prem-galaxy-repository)
 - [Usage](#usage)
 - [Installation](#installation)
@@ -18,16 +19,16 @@ description: How to install on-prem ansible galaxy
 
 Generic ansible roles can be shared through [ansible galaxy](https://galaxy.ansible.com), however, its hard to access ansible-galaxy from within corporate network. A good alternative is to host something similar to ansible-galaxy on-prem.
 
-
 ## On-prem galaxy repository
+
 - For this blog stash is considered (https://stash.company.com), however, gitlab, gogs or similar should work as well
 - Create a new project on stash `Ansible Galaxy` with key `AG`
 - Create repo for each generic ansbile role.
 - All generic ansbile roles can be browsed at https://stash.company.com/projects/AG
 - Now these roles can be used with multiple ansible playbooks.
 
-
 ## Usage
+
 - Create a new file `requirements.yml` alongside ansible `playbook.yml`.
 - For this blog purposes I am considering `awscli` as an generic ansible role with its own repo, which resides in our newly created stash project `Ansible Galaxy (AG)`
 - Copy/paste below content to `requirements.yml`
@@ -38,7 +39,6 @@ Generic ansible roles can be shared through [ansible galaxy](https://galaxy.ansi
   src: git+https://stash.company.com/scm/ag/awscli
   version: master
   path: ~/.ansible/roles
-
   # name - name of role
   # src - location of role
   # version - which branch the role should be installed from
@@ -47,8 +47,8 @@ Generic ansible roles can be shared through [ansible galaxy](https://galaxy.ansi
 
 - The `requirements.yml` files acts as a role dependency list for our `playbook.yml`
 
-
 ## Installation
+
 - Once we define our ansible playbook dependencies, its time to install them.
 
   ```bash

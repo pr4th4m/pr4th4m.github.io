@@ -12,6 +12,7 @@ description: Netrc python client
 ---
 
 <!--toc:start-->
+
 - [Versioner](#versioner)
   - [Installation](#installation)
   - [Current support](#current-support)
@@ -21,23 +22,25 @@ description: Netrc python client
 <!--toc:end-->
 
 ## Versioner
+
 Version reader/writer for popular package managers as per [SemVer](https://semver.org/)
 
 ### Installation
 
-  ```bash
-  pip install git+https://github.com/VeritasOS/versioner.git
-  ```
+```bash
+pip install git+https://github.com/VeritasOS/versioner.git
+```
 
 ### Current support
+
 - npm
 - dep
 - json
 - toml
 - yaml (currently multi doc in single file not supported)
 
-
 ### Usage
+
 - Read version (run command from project root)
 
   ```bash
@@ -104,12 +107,13 @@ Version reader/writer for popular package managers as per [SemVer](https://semve
 
 ## Development
 
-  ```bash
-  git clone https://github.com/VeritasOS/versioner.git
-  cd versioner
-  pip install -e .
-  ```
+```bash
+git clone https://github.com/VeritasOS/versioner.git
+cd versioner
+pip install -e .
+```
 
 ## NOTE
+
 - This utility is tested for npm and dep.
 - Read/write for custom file may break, please feel free to send a patch.

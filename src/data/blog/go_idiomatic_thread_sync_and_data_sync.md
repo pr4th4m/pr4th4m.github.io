@@ -12,14 +12,16 @@ description: Go idiomatic - Thread synchronization
 ---
 
 <!--toc:start-->
+
 - [Thread synchronization](#thread-synchronization)
   - [Go idiomatic way](#go-idiomatic-way)
   - [Traditional way](#traditional-way)
-<!--toc:end-->
+  <!--toc:end-->
 
 ## Thread synchronization
 
 ### Go idiomatic way
+
 - Example of thread synchronization using channels
 
 ```go
@@ -58,8 +60,8 @@ func httpRequest(source map[string]any, responseChan chan map[string]any) {
 }
 ```
 
-
 ### Traditional way
+
 - Example of thread synchronization using WaitGroup
 
 ```go

@@ -11,17 +11,20 @@ description: Stream cli output over http
 ---
 
 <!--toc:start-->
+
 - [Runnel](#runnel)
   - [Installation:](#installation)
   - [Usage:](#usage)
   - [Package:](#package)
   - [Detailed documentation:](#detailed-documentation)
-<!--toc:end-->
+  <!--toc:end-->
 
 ## Runnel
+
 A program to stream any command line output over http. This is useful when we want to display command output on client side. One such use case can be displaying live logs in browser which are running inside a container on server side.
 
 ### Installation:
+
 - Using docker (recommended)
 
   ```bash
@@ -45,6 +48,7 @@ A program to stream any command line output over http. This is useful when we wa
   ```
 
 ### Usage:
+
 - Trigger below commands to get live stream
 
   ```bash
@@ -57,6 +61,7 @@ A program to stream any command line output over http. This is useful when we wa
   ```
 
 ### Package:
+
 - Dependency: Install redis server
 - Use as golang package
 
@@ -74,5 +79,6 @@ A program to stream any command line output over http. This is useful when we wa
   ```
 
 ### Detailed documentation:
+
 - A much more detailed documentation is provided here [**runnel**](https://github.com/VeritasOS/runnel)
 - [**Feel free to Contribute back**](https://github.com/VeritasOS/runnel)

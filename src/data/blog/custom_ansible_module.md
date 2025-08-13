@@ -12,16 +12,18 @@ description: Custom ansible modules
 ---
 
 <!--toc:start-->
+
 - [How to write ansible custom modules](#how-to-write-ansible-custom-modules)
 - [Module](#module)
 - [Usage](#usage)
 <!--toc:end-->
 
 ## How to write ansible custom modules
+
 Ansible modules are easy way to interact between an existing application and ansible playbook. This blog covers how to write your own ansible module.
 
-
 ## Module
+
 - Create a python file called `greet.py` with following content
 
   ```python
@@ -59,6 +61,7 @@ Ansible modules are easy way to interact between an existing application and ans
   ```
 
 ## Usage
+
 - Create an ansible playbook called `playbook.yml`
 
   ```bash
@@ -86,7 +89,7 @@ Ansible modules are easy way to interact between an existing application and ans
   ---
   - hosts: localhost
     tasks:
-    - name: Lets start greeting
-      greet:
+      - name: Lets start greeting
+        greet:
           message: "Good morning"
   ```
