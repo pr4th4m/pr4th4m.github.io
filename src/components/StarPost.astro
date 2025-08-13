@@ -2,13 +2,14 @@
 import IconStar from "@/assets/icons/IconStar.svg";
 import { SITE } from "@/config";
 
+const { class: className = "" } = Astro.props;
 const href = `${SITE.starPost.url}`;
 const showStarPost = SITE.starPost.enabled && href.trim() !== "";
 ---
 
 {
   showStarPost && (
-    <div class="opacity-80 max-sm:hidden">
+    <div class:list={["opacity-80", className]}>
       <span aria-hidden="true" class="max-sm:hidden">
         |
       </span>
