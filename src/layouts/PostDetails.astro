@@ -6,6 +6,7 @@ import Footer from "@/components/Footer.astro";
 import Tag from "@/components/Tag.astro";
 import Datetime from "@/components/Datetime.astro";
 import EditPost from "@/components/EditPost.astro";
+import StarPost from "@/components/StarPost.astro";
 import ShareLinks from "@/components/ShareLinks.astro";
 import BackButton from "@/components/BackButton.astro";
 import BackToTopButton from "@/components/BackToTopButton.astro";
@@ -101,6 +102,7 @@ const nextPost =
     <div class="flex items-center gap-4">
       <Datetime {pubDatetime} {modDatetime} {timezone} size="lg" class="my-2" />
       <EditPost class="max-sm:hidden" {hideEditPost} {post} />
+      <StarPost class="max-sm:hidden" {hideEditPost} {post} />
     </div>
     <article id="article" class="mx-auto prose mt-8 max-w-3xl">
       <Content />

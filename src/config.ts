@@ -19,4 +19,9 @@ export const SITE = {
   dynamicOgImage: true,
   lang: "en", // html lang code. Set this empty and default will be "en"
   timezone: "Asia/Calcutta", // Default global timezone (IANA format) https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  starPost: {
+    enabled: true,
+    text: "Give Star",
+    url: "https://github.com/pr4th4m/pr4th4m.github.io",
+  },
 } as const;

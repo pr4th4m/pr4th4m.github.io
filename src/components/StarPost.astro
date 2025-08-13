@@ -1,0 +1,27 @@
+---
+import IconStar from "@/assets/icons/IconStar.svg";
+import { SITE } from "@/config";
+
+const href = `${SITE.starPost.url}`;
+const showStarPost = SITE.starPost.enabled && href.trim() !== "";
+---
+{
+  showStarPost && (
+   <div class="opacity-80 max-sm:hidden">
+     <span aria-hidden="true" class="max-sm:hidden">
+       |
+     </span>
+     <a
+       href={href}
+       target="_blank"
+       rel="noopener noreferrer"
+       class="space-x-1.5 hover:opacity-75"
+     >
+       <IconStar class="inline-block size-4.5" />
+       <span class="italic max-sm:text-sm sm:inline">
+         {SITE.starPost.text}
+       </span>
+     </a>
+   </div>
+   )
+}

@@ -1,0 +1,19 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  class="icon icon-tabler icon-tabler-star-filled"
+  width="10"
+  height="10"
+  viewBox="0 0 24 24"
+  stroke-width="2"
+  stroke="currentColor"
+  fill="none"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+  <path
+    d="M8.243 7.34l-6.38 .925l-.113 .023a1 1 0 0 0 -.44 1.616l4.628 4.5l-1.092 6.355l-.013 .11a1 1 0 0 0 1.464 1.066l5.707 -3l5.707 3l.112 .062a1 1 0 0 0 1.458 -1.066l-1.092 -6.355l4.628 -4.5l.078 -.085a1 1 0 0 0 -.633 -1.62l-6.38 -.925l-2.852 -5.165l-.106 -.194a1 1 0 0 0 -1.669 0l-2.852 5.165z"
+    stroke-width="0"
+    fill="currentColor"
+  ></path>
+</svg>
